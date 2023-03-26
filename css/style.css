@@ -30,7 +30,7 @@ html {
 
 p {
 	font-family: Montserrat, sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 }
 
 .container-fluid {
@@ -59,7 +59,7 @@ p {
 
 .navbar {
 	margin-bottom: 0;
-	background-color: hsl(40, 95%, 56%);
+	background-color: #00000099;
 	z-index: 9999;
 	border: 0;
 	font-size: 12px !important;
@@ -68,9 +68,8 @@ p {
 	border-radius: 0;
 	font-family: Montserrat, sans-serif;
 	padding: 0px;
-	position: fixed;
-	top: 0;
 	width: 100%;
+	position: fixed;
 }
 
 .navbar li {
@@ -141,7 +140,7 @@ p {
 }
 
 footer {
-	background-color: hsl(40, 95%, 56%);
+	background-color: #00000099;
 	color: #fff;
 	font-family: Montserrat, sans-serif;
 }
@@ -345,10 +344,67 @@ table thead tr th {
 	.aboutImg {
 		height: 220px;
 	}
+	
 }
 
 @media screen and (max-width: 480px) {
 	.logo {
 		font-size: 150px;
 	}
+	header{
+		display: none;
+	}
+	.banner-content-1 {
+		top: 80px !important;
+		font-size: 10px !important;
+	}
+	.banner-content-2 {
+		top: 100px !important;
+		font-size: 13px !important;
+	}
+	.banner-content-3 {
+		top: 130px !important;
+		font-size: 9px !important;
+	}
+	.card {
+		padding: 0.5rem !important;
+	}
+	.banner {
+		height: 200px;
+	}
+	.card-row {
+		top: -90px !important;
+	}
+	.body-content {
+		margin-top: 650px !important;
+	}
+	.body-content>.row>div>div>img {
+		width: 200px !important;
+	}
+	.logo {
+		width: 200px !important;
+	}
+}
+
+.bg-blue{
+	background-color: #2196F3;
+}
+.font-11{
+	font-size: 11px;;
+}
+.item-img {
+	width: 100% !important;
+	height: 300px !important;
+}
+.bg-yellow-gradiant {
+	background: linear-gradient(90deg, #ffc107 30%, #ffffff00)
+}
+.font-13 {
+	font-size: 13px;
+}
+.text-secondary-dark {
+	color: #4f4f4f;
+}
+.logo {
+	width: 245px;
 }
